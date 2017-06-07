@@ -4,20 +4,20 @@
     height: 100vh;
 }
 
-#contenedor-logo {
+.contenedor-logo {
     width: 40%; 
     position: absolute;
     margin-top: 50%;
     margin-left: 27%;
 }
 
-#contenedor-logo:hover {
+.contenedor-logo:hover {
    transform: rotate(360deg);
    transition: .6s;
 }
 
-#contenedor-logo img {
-   width: 100%;
+.contenedor-logo img {
+   width: 90%;
 }
 
 .body-home {
@@ -29,3 +29,7 @@
     height: 100vh;
 }
  
+.pd-top-btn {
+    margin-top: 85vh;
+    margin-left: 4%;
+}
